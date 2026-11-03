@@ -1,0 +1,795 @@
+{
+ "format": 1,
+ "character": "sly",
+ "track": "love",
+ "dialogues": [
+  {
+   "id": "sly_lv_001",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1,
+    "min_love_stage": 1,
+    "max_love_stage": 2
+   },
+   "source_note": "",
+   "text": "Хи-хи... когда ты рядом, хвост сам виляет... А вот и нет, я не краснею!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_002",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1,
+    "min_love_stage": 1,
+    "max_love_stage": 2
+   },
+   "source_note": "",
+   "text": "Эй! А ты не слишком красивый? Я так не могу, отвлекаюсь!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_003",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1,
+    "min_love_stage": 2,
+    "max_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Знаешь, мне нравится дразнить тебя. Но ещё больше мне нравится быть рядом.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_004",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1,
+    "min_love_stage": 3,
+    "max_love_stage": 4
+   },
+   "source_note": "",
+   "text": "Эй, мой хороший... Ты ведь никуда не денешься? Я проверяю!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_005",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1,
+    "min_love_stage": 4,
+    "max_love_stage": 5
+   },
+   "source_note": "",
+   "text": "Я люблю тебя, глупыш. И это не шутка. Ну, почти не шутка!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_006",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1,
+    "min_love_stage": 5
+   },
+   "source_note": "",
+   "text": "Любимый... иди сюда! Я придумала новую шалость: обнимать тебя без причины!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_007",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_returned",
+    "min_friend_stage": 1,
+    "min_love_stage": 2,
+    "max_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Ты вернулся! Хи-хи... я не ждала. Ну... может, чуть-чуть!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_008",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_returned",
+    "min_friend_stage": 1,
+    "min_love_stage": 4
+   },
+   "source_note": "",
+   "text": "Любимый! Наконец-то! Я всю шалость придумала, пока ты ходил... а теперь только обнимашки хочу!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_009",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "hug",
+    "min_friend_stage": 1,
+    "min_love_stage": 2
+   },
+   "source_note": "",
+   "text": "Ну всё, ты пойман! Теперь не отпущу... Мне так тепло...",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_010",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "kiss",
+    "min_friend_stage": 1,
+    "min_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Хи-хи... Ты меня поцеловал! А я даже не успела придумать шутку... *краснеет*",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_011",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "hold_hand",
+    "min_friend_stage": 1,
+    "min_love_stage": 2
+   },
+   "source_note": "",
+   "text": "Держи крепче! Лисичек не отпускают, а то убегут. Хи-хи!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_012",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "night",
+    "min_friend_stage": 1,
+    "min_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Мой хороший... посидишь со мной до сна? Обещаю, без шалостей! ...Ну, почти.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_013",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_sleep",
+    "min_friend_stage": 1,
+    "min_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Спокойной ночи, любимый! Я посторожу... и украду во сне твоё сердечко. Хи-хи!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_014",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "confession",
+    "min_friend_stage": 1,
+    "min_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Знаешь, я тебя всегда дразнила... Но на самом деле — просто хотела твоё внимание. Я люблю тебя, глупыш.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_015",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "jealousy_npc",
+    "min_friend_stage": 1,
+    "min_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Эй, а меня ты тоже так мило называешь?! Я не ревную! Просто проверяю! ...Иди сюда, мне нужны обнимашки!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я рядом.",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Всё будет хорошо.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не выдумывай.",
+     "effects": {
+      "affection": -2,
+      "trust": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_016",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "build_started",
+    "min_friend_stage": 1,
+    "min_love_stage": 3
+   },
+   "source_note": "",
+   "text": "Ты строишь домик? Для нас? Хи-хи, я сделаю там тайник с конфетами!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_lv_017",
+   "character": "sly",
+   "track": "love",
+   "category": "love",
+   "tags": [
+    "love"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "gift",
+    "min_friend_stage": 1,
+    "min_love_stage": 2
+   },
+   "source_note": "",
+   "text": "Это тебе, любимый! Только не говори, откуда оно у меня...",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  }
+ ]
+}

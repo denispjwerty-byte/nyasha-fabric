@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nyasha",
+  "version": "${version}",
+  "name": "Мелони и Лисси",
+  "description": "Мелони (крипер) и Лисси (лисичка): характеры, диалоги, память, отношения, ИИ и свободный чат. Порт аддона MeloniLissiAddon v1.2.0 с Bedrock.",
+  "authors": ["Nyasha Addon"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.nyasha.NyashaMod"],
+    "client": ["ru.nyasha.client.NyashaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": ">=4.7"
+  }
+}

@@ -1,0 +1,785 @@
+{
+ "format": 1,
+ "character": "sly",
+ "track": "friendship",
+ "dialogues": [
+  {
+   "id": "sly_fr_001",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient"
+   },
+   "source_note": "",
+   "text": "Ла-ла-ла~ А у меня есть секрет! Только не скажу какой!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_002",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient"
+   },
+   "source_note": "",
+   "text": "*прячет что-то за спиной* Что? Ничего! Совсем ничего!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_003",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient"
+   },
+   "source_note": "",
+   "text": "Эй, человечек! Не видел мои конфеты? Просто так спрашиваю...",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_004",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient"
+   },
+   "source_note": "",
+   "text": "Хм-м... Скучно! Давай придумаем какую-нибудь шалость!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Давай!",
+     "effects": {
+      "affection": 3,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Может, позже.",
+     "effects": {
+      "affection": 0,
+      "trust": 0
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Нет.",
+     "effects": {
+      "affection": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_005",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Хи-хи! Я только что кое-что провернула! Что — не скажу!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_006",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "А ты знал, что лисички самые ловкие? Вот и я такая!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_007",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 2
+   },
+   "source_note": "",
+   "text": "Дружочек, ты со мной не соскучишься! Я умею быть и милой, и вредной!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_008",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 2
+   },
+   "source_note": "",
+   "text": "Ой, ты тут! А я как раз хотела подкрасться и напугать! Ну... в другой раз!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_009",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 3
+   },
+   "source_note": "",
+   "text": "Знаешь, ты единственный, кому я прощаю, что поймал меня за шалостью, хи-хи!",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_010",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 20,
+   "conditions": {
+    "event": "ambient",
+    "min_friend_stage": 3
+   },
+   "source_note": "",
+   "text": "С тобой так весело! Давай никогда не расходиться?.. Ой, это я вслух?",
+   "responses": [],
+   "cooldown": 900,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_011",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_returned"
+   },
+   "source_note": "",
+   "text": "Ага, вернулся! А я уже думала стащить у тебя что-нибудь в отместку!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже рад тебя видеть.",
+     "effects": {
+      "affection": 3,
+      "trust": 1,
+      "irritation": -1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда, обниму.",
+     "effects": {
+      "affection": 2,
+      "romance": 1,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не сейчас.",
+     "effects": {
+      "affection": -1,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_012",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_returned",
+    "min_friend_stage": 2
+   },
+   "source_note": "",
+   "text": "Дружочек! Хи-хи, я скучала! Совсем чуточку! Ну... много!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже рад тебя видеть.",
+     "effects": {
+      "affection": 3,
+      "trust": 1,
+      "irritation": -1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда, обниму.",
+     "effects": {
+      "affection": 2,
+      "romance": 1,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не сейчас.",
+     "effects": {
+      "affection": -1,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_013",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_leaving"
+   },
+   "source_note": "",
+   "text": "Уходишь? Ладно-ладно, только возвращайся! Я иначе обижусь на неделю!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_014",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_sleep"
+   },
+   "source_note": "",
+   "text": "Спокойной ночи, соня! Я посторожу... и, может, нарисую тебе усы!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_015",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "morning",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Доброе утро, соня! Ты проспал самое интересное — мои шалости!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_016",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "night"
+   },
+   "source_note": "",
+   "text": "Ночь! Время хитрых лисичек! Пойдём куда-нибудь, а?",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Давай!",
+     "effects": {
+      "affection": 3,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Может, позже.",
+     "effects": {
+      "affection": 0,
+      "trust": 0
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Нет.",
+     "effects": {
+      "affection": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_017",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "walk_invite"
+   },
+   "source_note": "",
+   "text": "Эй, пошли гулять! Только захвати конфеты! Пожалуйста! Ну, или я сама найду!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Давай!",
+     "effects": {
+      "affection": 3,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Может, позже.",
+     "effects": {
+      "affection": 0,
+      "trust": 0
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Нет.",
+     "effects": {
+      "affection": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_018",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "hug",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Обнимашки?! Ну давай! Но тебе — только раз! Хи-хи, шучу — сколько захочешь!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже рад тебя видеть.",
+     "effects": {
+      "affection": 3,
+      "trust": 1,
+      "irritation": -1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда, обниму.",
+     "effects": {
+      "affection": 2,
+      "romance": 1,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не сейчас.",
+     "effects": {
+      "affection": -1,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_019",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "pet"
+   },
+   "source_note": "",
+   "text": "Ой, ушки не трогай! Ладно... трогай. Чуть-чуть...",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_020",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "hold_hand",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Хи-хи, ты держишь меня за руку? Ладно, так меня не поймают чужие!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Давай!",
+     "effects": {
+      "affection": 3,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Может, позже.",
+     "effects": {
+      "affection": 0,
+      "trust": 0
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Нет.",
+     "effects": {
+      "affection": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_021",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "compliment",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Э-эй! Так нечестно! Я хотела первой тебя похвалить! Но спасибо...",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже рад тебя видеть.",
+     "effects": {
+      "affection": 3,
+      "trust": 1,
+      "irritation": -1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда, обниму.",
+     "effects": {
+      "affection": 2,
+      "romance": 1,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не сейчас.",
+     "effects": {
+      "affection": -1,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_022",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "ask_mood",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Эй, ты чего хмурый? Рассказывай, я в хитрых делах мастер — что-нибудь придумаем!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я рядом.",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Всё будет хорошо.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не выдумывай.",
+     "effects": {
+      "affection": -2,
+      "trust": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_023",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "apology",
+    "min_friend_stage": 2
+   },
+   "source_note": "",
+   "text": "Эм... Хочу извиниться за те шалости... Ну... не за все, конечно! Хи-хи!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже рад тебя видеть.",
+     "effects": {
+      "affection": 3,
+      "trust": 1,
+      "irritation": -1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда, обниму.",
+     "effects": {
+      "affection": 2,
+      "romance": 1,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не сейчас.",
+     "effects": {
+      "affection": -1,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_024",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_stares"
+   },
+   "source_note": "",
+   "text": "Что ты так смотришь? У меня что-то на лице? Или... ты хочешь конфету?",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "И я рад. Очень.",
+     "effects": {
+      "affection": 3,
+      "romance": 2,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты такая милая.",
+     "effects": {
+      "affection": 2,
+      "romance": 3
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Давай потом.",
+     "effects": {
+      "affection": -1,
+      "irritation": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_fr_025",
+   "character": "sly",
+   "track": "friendship",
+   "category": "greeting",
+   "tags": [
+    "friendship"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "gift",
+    "min_friend_stage": 1
+   },
+   "source_note": "",
+   "text": "Смотри, что я нашла! Это тебе! ...Ладно, я не нашла, я одолжила. На время!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже рад тебя видеть.",
+     "effects": {
+      "affection": 3,
+      "trust": 1,
+      "irritation": -1
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда, обниму.",
+     "effects": {
+      "affection": 2,
+      "romance": 1,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не сейчас.",
+     "effects": {
+      "affection": -1,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  }
+ ]
+}

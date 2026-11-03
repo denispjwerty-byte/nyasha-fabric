@@ -1,0 +1,803 @@
+{
+ "format": 1,
+ "character": "sly",
+ "track": "special",
+ "dialogues": [
+  {
+   "id": "sly_sp_first_meet",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 100,
+   "conditions": {
+    "event": "first_meet"
+   },
+   "source_note": "",
+   "text": "Хи-хи! О, новый человечек! Я Лисси — хитрая, милая и ловкая лисичка! А ты кто? Только не подглядывай за моими хитростями!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Привет. Я {player}.",
+     "effects": {
+      "affection": 3,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Хитрая, значит? Посмотрим.",
+     "effects": {
+      "affection": 3,
+      "trust": 1
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Очень приятно, Лисси.",
+     "effects": {
+      "affection": 4,
+      "trust": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": false
+  },
+  {
+   "id": "sly_sp_misses",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "nyasha_misses",
+    "min_absence": 24000
+   },
+   "source_note": "",
+   "text": "Ты что, пропал на целую вечность?! Я уже разозлилась и успела соскучиться!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я рядом.",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Всё будет хорошо.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не выдумывай.",
+     "effects": {
+      "affection": -2,
+      "trust": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_died",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "player_died"
+   },
+   "source_note": "",
+   "text": "Эй! Ты меня напугал! Не смей так делать! Слышишь?! Хи-хи... нет, это не смешно...",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я рядом.",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Всё будет хорошо.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не выдумывай.",
+     "effects": {
+      "affection": -2,
+      "trust": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_boom",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "explosion_nearby"
+   },
+   "source_note": "",
+   "text": "Ай! Что это за грохот?! Я не испугалась! Просто хвост распушился!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я рядом.",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Всё будет хорошо.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не выдумывай.",
+     "effects": {
+      "affection": -2,
+      "trust": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_hit",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "hit_nyasha"
+   },
+   "source_note": "",
+   "text": "Эй! Это было больно! А вот и нет, я не прощу вот так просто!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Прости меня.",
+     "effects": {
+      "trust": 2,
+      "irritation": -4,
+      "flags_set": [
+       "apologized"
+      ]
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Как хочешь.",
+     "effects": {
+      "trust": -3,
+      "irritation": 4
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_conflict",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "conflict_start"
+   },
+   "source_note": "",
+   "text": "Всё! Я дуюсь! Не разговариваю! Пока не извинишься!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Прости меня.",
+     "effects": {
+      "trust": 2,
+      "irritation": -4,
+      "flags_set": [
+       "apologized"
+      ]
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Как хочешь.",
+     "effects": {
+      "trust": -3,
+      "irritation": 4
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_reconcile",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "reconcile"
+   },
+   "source_note": "",
+   "text": "Ладно, прощаю! Только потому, что без тебя шалить скучно. И обнимашки с тебя!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Договорились.",
+     "effects": {
+      "affection": 4,
+      "trust": 3,
+      "irritation": -5
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Иди сюда.",
+     "effects": {
+      "affection": 3,
+      "trust": 2,
+      "irritation": -4
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_rescue",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "rescue"
+   },
+   "source_note": "",
+   "text": "Хи-хи, спасибо, что вытащил меня! Но я бы и сама справилась! ...Наверное. Спасибо, правда.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я рядом.",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Всё будет хорошо.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r3",
+     "text": "Не выдумывай.",
+     "effects": {
+      "affection": -2,
+      "trust": -2,
+      "irritation": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_f1",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "friendship:1"
+   },
+   "source_note": "",
+   "text": "Знаешь, а с тобой весело! Давай дружить? Только чур, я буду главной по шалостям!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Давай!",
+     "effects": {
+      "affection": 3,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Согласен.",
+     "effects": {
+      "affection": 2,
+      "trust": 1
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_f2",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "friendship:2"
+   },
+   "source_note": "",
+   "text": "Дружочек! Ты теперь официально мой напарник по шалостям! Хи-хи!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Ещё бы!",
+     "effects": {
+      "affection": 3,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Я не против.",
+     "effects": {
+      "affection": 2,
+      "trust": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_f3",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "friendship:3"
+   },
+   "source_note": "",
+   "text": "Ты мой лучший друг! Секретик: я никому не доверяю мои тайники с конфетами. Кроме тебя. Пока.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Спасибо за доверие.",
+     "effects": {
+      "affection": 4,
+      "trust": 4
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Я не выдам.",
+     "effects": {
+      "affection": 3,
+      "trust": 4
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_l1",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "love:1"
+   },
+   "source_note": "",
+   "text": "Эй! У меня что-то со щёчками! Они горят! Это не потому что ты рядом! ...Ладно, потому что ты.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Это мило.",
+     "effects": {
+      "affection": 3,
+      "romance": 4
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Мне тоже нравится быть рядом.",
+     "effects": {
+      "affection": 3,
+      "romance": 4
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_l2",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "love:2"
+   },
+   "source_note": "",
+   "text": "Кажется... я в тебя влюбилась. Только не смейся, а то подпалю хвост-камикадзе!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже в тебя влюблён.",
+     "effects": {
+      "romance": 6,
+      "affection": 3,
+      "trust": 2
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты очень милая.",
+     "effects": {
+      "romance": 3,
+      "affection": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_l3",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "love:3"
+   },
+   "source_note": "",
+   "text": "Слушай, мой хороший... ты ведь не уйдёшь к кому-то другому? Я проверяю... серьёзно.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я никуда не уйду.",
+     "effects": {
+      "trust": 4,
+      "romance": 5
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты у меня одна.",
+     "effects": {
+      "romance": 5,
+      "affection": 3
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_l4",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "love:4"
+   },
+   "source_note": "",
+   "text": "Я люблю тебя, глупыш. Громко и без шалостей! Ну... почти без.",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Я тоже тебя люблю.",
+     "effects": {
+      "romance": 8,
+      "affection": 4,
+      "trust": 3
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Тише, услышат лисы!",
+     "effects": {
+      "romance": 3,
+      "affection": 2
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_sp_l5",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "stage_up",
+    "stage_key": "love:5"
+   },
+   "source_note": "",
+   "text": "Любимый... будем вместе. Всегда. А все мои хитрости — только для тебя!",
+   "responses": [
+    {
+     "id": "r1",
+     "text": "Давай. Всегда.",
+     "effects": {
+      "romance": 8,
+      "trust": 5,
+      "affection": 4
+     }
+    },
+    {
+     "id": "r2",
+     "text": "Ты моя лучшая лисичка.",
+     "effects": {
+      "romance": 8,
+      "trust": 4,
+      "affection": 4
+     }
+    }
+   ],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_rescue",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "rescue"
+   },
+   "source_note": "",
+   "text": "Помнишь, как ты меня вытащил? Хи-хи, я тогда сделала вид, что не испугалась!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_defended",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "defended"
+   },
+   "source_note": "",
+   "text": "Ты тогда так лихо меня защищал! Я бы тоже так смогла... ну, с хитростью!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_gift_love",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "gift_love"
+   },
+   "source_note": "",
+   "text": "Тот подарок я прячу в самом секретном тайнике! Только тс-с!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_campfire",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "campfire"
+   },
+   "source_note": "",
+   "text": "Помнишь костёр? Я тогда стащила у тебя конфетку и сделала невинные глазки!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_walk",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "walk"
+   },
+   "source_note": "",
+   "text": "А давай как тогда — гулять по ночам и пугать мобов!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_hit",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "hit"
+   },
+   "source_note": "",
+   "text": "Я тот удар помню! Лисички не забывают... но я не злюсь. Почти.",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_left_alone",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "left_alone"
+   },
+   "source_note": "",
+   "text": "Когда ты оставил меня одну, мне было скучно. Не делай так больше!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_house_built",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "house_built"
+   },
+   "source_note": "",
+   "text": "Ты построил наш домик! А я уже все тайники обустроила!",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  },
+  {
+   "id": "sly_rc_reconciled",
+   "character": "sly",
+   "track": "special",
+   "category": "special",
+   "tags": [
+    "special"
+   ],
+   "priority": 50,
+   "conditions": {
+    "event": "recall",
+    "requires_memory": "reconciled"
+   },
+   "source_note": "",
+   "text": "Больше не ссорься со мной, ладно? Мне без тебя скучно дуться.",
+   "responses": [],
+   "cooldown": 3000,
+   "repeatable": true
+  }
+ ]
+}

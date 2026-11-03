@@ -1,0 +1,70 @@
+{
+ "format": 1,
+ "kind": "reactions",
+ "character": "sly",
+ "refusals": [
+  "*скрещивает руки и отворачивается*",
+  "Не разговариваю! Я дуюсь!",
+  "А вот и нет! Не хочу с тобой говорить!"
+ ],
+ "tones": {
+  "positive": [
+   {
+    "text": "Хи-хи! Мне нравится!",
+    "emotion": "happy"
+   },
+   {
+    "text": "Ла-ла-ла~ Спасибо, {player}!",
+    "emotion": "happy"
+   },
+   {
+    "text": "Ой, ну ты даёшь! Приятно!",
+    "emotion": "shy"
+   },
+   {
+    "text": "Хи-хи, дружочек, ты меня балуешь!",
+    "emotion": "happy",
+    "tier": "far"
+   },
+   {
+    "text": "Мой хороший... Я тебя очень люблю... ❤️",
+    "emotion": "tender",
+    "tier": "close"
+   }
+  ],
+  "neutral": [
+   {
+    "text": "Ага, хорошо.",
+    "emotion": "neutral"
+   },
+   {
+    "text": "Хм-м, ладно.",
+    "emotion": "neutral"
+   },
+   {
+    "text": "Ну-ну.",
+    "emotion": "neutral"
+   }
+  ],
+  "negative": [
+   {
+    "text": "Эй! Так нечестно!",
+    "emotion": "angry"
+   },
+   {
+    "text": "А вот и нет! Мне это не нравится!",
+    "emotion": "angry"
+   },
+   {
+    "text": "Хм... Мне обидно...",
+    "emotion": "sad",
+    "tier": "close"
+   },
+   {
+    "text": "*надувает щёки*",
+    "emotion": "angry",
+    "tier": "conflict"
+   }
+  ]
+ }
+}
